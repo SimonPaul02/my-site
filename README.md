@@ -14,17 +14,26 @@ npm run dev
 
 ## Optional booking calendar
 
-Set `NEXT_PUBLIC_CAL_LINK` in your untracked `.env.local` file to your Cal.com event path (`username/event`). Without it, the site shows email contact instead of a calendar. The example file deliberately contains no personal event address.
+Set `CAL_LINK` in your untracked `.env.local` file to your Cal.com event path (`username/event`). Without it, the site shows email contact instead of a calendar. The example file deliberately contains no personal event address.
 
-For hosting, configure this variable privately in your hosting provider before building. This keeps it out of GitHub, but it is **not a secret from website visitors**: the browser needs the event path to display the calendar, and Next.js includes public variables in the built site. Rebuild after changing it. Never put passwords, tokens, or API secrets in `NEXT_PUBLIC_*` variables.
+For hosting, configure `CAL_LINK` privately in the server environment. It stays out of GitHub and is no longer a `NEXT_PUBLIC_*` build-time variable. The event address is still visible to website visitors because the booking widget needs it. Never use this variable for passwords or API secrets.
 
-## Build
+## Production
 
 ```sh
 npm run build
+npm start
 ```
 
-The static website is exported to `out/`, ready for a static host. Hosting is not configured by this repository. Do not commit generated output or environment files.
+This version uses request-time server rendering and requires a Next.js-compatible server host. It no longer exports a static `out/` directory. Hosting is not configured by this repository. Do not commit build output or environment files.
+
+## Rendering and performance
+
+- Profile content and i18next translations render on the server. The initial HTML is complete without JavaScript.
+- Language is selected from the saved `site-language` cookie or the browser’s `Accept-Language` header. EN/DE links work without JavaScript and persist the preference for one year.
+- The shader, scroll reveals, and booking widget are isolated client components. The calendar loads only when close to the viewport.
+- The portrait uses a transparent WebP and Next.js responsive image optimization, with a preload for the hero image.
+- Reduced-motion preferences disable entrance animations and stop shader time animation.
 
 ## Edit
 
@@ -33,7 +42,7 @@ The static website is exported to `out/`, ready for a static host. Hosting is no
 - WebGL background: `components/ui/blue-halftone.tsx`
 - Images and organization marks: `public/`
 
-Language follows the browser preference, with manual EN/DE selection. Reduced-motion preferences are respected.
+
 
 ## License and assets
 
