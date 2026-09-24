@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap');
+:root{--ink:#f0f2f8;--muted:#a6b0c5;--blue:#89aaff;--line:rgba(160,186,241,.18)}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:#060c1a;color:var(--ink);font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:#3868cb;color:white}a,button{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:2px solid #adc4ff;outline-offset:6px}.background{position:fixed;inset:0;z-index:-2;background:#081328}.background:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,8,21,.06),rgba(3,8,21,.6) 80%)}header,main,footer{max-width:1320px;margin:auto;padding-left:64px;padding-right:64px}header{display:flex;justify-content:space-between;align-items:center;height:120px}.wordmark{font-size:24px;font-weight:650;letter-spacing:-1px}.wordmark span{font-size:12px;vertical-align:top;margin-left:5px}.header-right{display:flex;gap:35px;align-items:center}.languages{display:flex;gap:2px}.languages button{cursor:pointer;border:0;background:none;color:#8996b1;font-size:13px;padding:8px}.languages button[aria-pressed=true]{color:white}.header-chat{font-size:14px;border-bottom:1px solid #5c6d92;padding-bottom:5px}.header-chat span{margin-left:22px}.hero{min-height:670px;position:relative;display:grid;grid-template-columns:1.55fr 1fr;align-items:center;gap:48px;padding:44px 0 100px}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:600;color:var(--blue);margin:0 0 26px}.hero h1{font-family:Manrope,Arial,sans-serif;font-size:clamp(44px,5.2vw,72px);font-weight:500;line-height:1.13;letter-spacing:-3.5px;margin:0 0 26px}.hero h1>span{color:#a9bbdf}.intro{color:#b4bfd4;max-width:430px;font-size:17px;line-height:1.7;margin-bottom:30px}.button{display:inline-flex;align-items:center;gap:40px;padding:13px 23px;background:#eef2ff;color:#122140;border-radius:5px;font-weight:600;font-size:15px;transition:transform .2s,background .2s}.button:hover{background:white;transform:translateY(-3px)}.button span{font-size:22px}.portrait-wrap{position:relative;transform:rotate(3deg);margin:0 10px 0 0}.portrait{display:block;width:100%;height:420px;object-fit:cover;object-position:center;border-radius:5px;filter:saturate(.72);box-shadow:0 24px 70px #0006}.portrait-caption{display:flex;justify-content:space-between;font-size:10px;letter-spacing:1.8px;margin-top:13px;color:#95a9ce}.photo-corner{position:absolute;width:50px;height:50px;border-top:1px solid #7593ce;border-left:1px solid #7593ce;top:-12px;left:-12px}.scroll-link{position:absolute;bottom:34px;left:0;display:flex;gap:15px;font-size:13px;color:#9cacc8}.scroll-link>span{font-size:20px}.affiliations{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;gap:100px;padding:26px 0;align-items:center}.affiliations>div{display:flex;gap:30px;align-items:center}.affiliations span{font-size:10px;color:#899ab9;letter-spacing:1.5px}.affiliations a{font-size:25px;font-weight:700;letter-spacing:-1px}.affiliations small{font-size:16px;margin-left:10px;color:#8499c1}.affiliations p{margin:0;font-size:21px;color:#aebad1;letter-spacing:-.5px}.affiliations b{font-weight:400;margin:0 19px;color:#506185}.section{padding:104px 0;border-bottom:1px solid var(--line)}h2{font-family:Manrope,Arial,sans-serif;font-size:44px;line-height:1.2;font-weight:500;letter-spacing:-1.6px;margin:0 0 40px;white-space:pre-line}h3{font-size:22px;font-weight:550;letter-spacing:-.6px;margin:0 0 8px}.about{display:grid;grid-template-columns:1fr 1fr;gap:80px}.about-copy>p{color:var(--muted);margin:0 0 22px}.about-copy p.lead{font-size:21px;line-height:1.65;color:#d0d8e9}.about-copy .toolkit-label{font-size:11px;margin-top:32px;margin-bottom:15px}.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{font-size:12px;color:#b9c7e1;border:1px solid var(--line);padding:5px 11px;border-radius:4px}.timeline{margin-top:48px}.job{display:grid;grid-template-columns:.65fr 1.35fr 1.55fr;gap:30px;padding:31px 0;border-top:1px solid var(--line)}.date{font-size:12px;letter-spacing:.7px;color:#8e9fbd;padding-top:5px}.job-role{font-size:13px;color:#9babca;margin:0}.job>p{color:var(--muted);font-size:15px;margin:0}.current-mark{font-size:20px;color:#719bfa;margin-left:14px}.projects{display:grid;grid-template-columns:1fr 1fr;gap:24px}.projects article{padding:34px;background:rgba(35,57,102,.16);border:1px solid var(--line);border-radius:6px}.project-meta{display:flex;justify-content:space-between;font-size:11px;letter-spacing:1px;color:#859dc6;margin-bottom:44px}.projects h3{font-size:30px}.projects p{color:var(--muted);font-size:16px;margin-bottom:26px}.project-tech{color:#8396b9;font-size:12px}.education{display:grid;grid-template-columns:.65fr 1.35fr 1fr;gap:30px;margin-top:60px;align-items:start}.education .eyebrow{font-size:10px;margin-top:5px}.education h3{font-size:19px}.education p{font-size:13px;margin:6px 0}.muted{color:#91a2c0}.rank{font-size:12px;color:#b7cdf8;border:1px solid #3a5683;border-radius:4px;padding:7px 12px;justify-self:end}.outside{display:grid;grid-template-columns:1fr 1.2fr;gap:100px;align-items:center}.outdoor-photo{height:420px;width:100%;max-width:350px;transform:rotate(-3deg);border-radius:5px;overflow:hidden}.outdoor-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 55%;filter:saturate(.7)}.outside p:not(.eyebrow){color:var(--muted);max-width:430px}.outside h2{margin-bottom:24px}.personal-note{display:block;color:#809aca;font-style:italic;font-size:19px;margin-top:30px}.contact{padding:120px 0 100px}.contact h2{font-size:clamp(54px,7vw,90px);letter-spacing:-4px;margin-bottom:20px}.contact h2 span{color:#7197f4;margin-left:35px}.contact>p:not(.eyebrow){color:var(--muted);max-width:430px}.email-link{display:inline-flex;gap:40px;font-size:24px;border-bottom:1px solid #55719f;padding:9px 0;margin-top:20px;letter-spacing:-.5px}.linkedin{display:block;width:fit-content;color:#a8badb;margin-top:25px;font-size:14px}footer{border-top:1px solid var(--line);display:flex;justify-content:space-between;padding-top:25px;padding-bottom:30px;font-size:12px;color:#8396b7}.skip{position:fixed;top:-100px;left:20px;z-index:10;padding:12px;background:white;color:black}.skip:focus{top:10px}@media(min-width:1450px){.hero{min-height:740px}}@media(max-width:1000px){header,main,footer{padding-left:35px;padding-right:35px}.hero{gap:30px}.hero h1{font-size:53px;letter-spacing:-2.5px}.portrait{height:370px}.affiliations{gap:35px}.affiliations>div{gap:18px}.affiliations p{font-size:18px}.affiliations b{margin:0 8px}.about{gap:35px}.outside{gap:50px}h2{font-size:38px}.education{grid-template-columns:1fr 2fr}.rank{grid-column:2;justify-self:start}.job{grid-template-columns:.6fr 1.3fr 1.5fr;gap:20px}}@media(max-width:700px){header,main,footer{padding-left:24px;padding-right:24px}header{height:88px}.wordmark{font-size:22px}.header-chat{display:none}.hero{display:flex;flex-direction:column;align-items:stretch;gap:52px;padding:45px 0 80px}.hero h1{font-size:clamp(38px,8.8vw,60px);letter-spacing:-2px}.intro{font-size:16px}.hero .eyebrow{margin-bottom:22px}.portrait-wrap{width:78%;max-width:330px;margin:0 auto 38px}.portrait{height:340px}.scroll-link{bottom:24px}.affiliations{align-items:flex-start;gap:20px;flex-direction:column;padding:25px 0}.affiliations>div{width:100%;justify-content:space-between}.affiliations a{font-size:23px}.section{padding:65px 0}.about,.outside{grid-template-columns:1fr;gap:22px}h2{font-size:35px;letter-spacing:-1.2px;margin-bottom:30px}.about-copy p.lead{font-size:19px}.job{grid-template-columns:1fr;gap:12px;padding:27px 0}.job .date{font-size:11px}.job>p{font-size:15px}.projects{grid-template-columns:1fr}.projects article{padding:26px}.project-meta{margin-bottom:30px}.education{grid-template-columns:1fr;gap:10px;margin-top:42px}.rank{grid-column:1;margin-top:12px}.outside{gap:45px}.outdoor-photo{width:85%;height:360px;margin:10px auto}.contact{padding:75px 0}.contact h2{font-size:clamp(42px,10vw,68px);letter-spacing:-2px}.contact h2 span{margin-left:12px}.email-link{font-size:20px;gap:22px}footer{flex-wrap:wrap;gap:16px;font-size:11px}footer>span:nth-child(2){display:none}.eyebrow{font-size:11px}.outside h2{font-size:34px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+/* Concise profile and transparent portrait. */
+.hero{grid-template-columns:1.2fr 1fr;min-height:600px;padding:35px 0 50px;gap:20px}.hero h1{font-size:clamp(44px,5.2vw,70px);margin-bottom:12px;letter-spacing:-3px}.hero-tagline{color:#a9bbdf;font-size:clamp(24px,2.8vw,38px);line-height:1.3;letter-spacing:-1.2px;margin:0 0 25px}.intro{max-width:345px;font-size:16px;margin-bottom:28px}.hero-actions{display:flex;align-items:center;gap:28px}.social-link{font-size:14px;color:#b7c6e1}.portrait-wrap{transform:none;margin:0;align-self:center}.portrait{height:auto;width:100%;object-fit:contain;filter:none;box-shadow:none;border-radius:0;mask-image:linear-gradient(to bottom,#000 75%,transparent 100%)}.affiliations{justify-content:center;gap:36px;padding:24px 0}.affiliations p{font-size:22px}.section{padding:65px 0}.timeline{margin-top:30px}.job{align-items:center;padding:25px 0}.job>p{font-size:15px}.education-line{display:flex;justify-content:space-between;gap:20px;color:#96aacd;font-size:13px;margin-top:30px}.projects article{padding:25px 30px;background:transparent;border:0;border-left:1px solid var(--line);border-radius:0}.projects h3{font-size:25px}.projects p{margin:6px 0 0}.compact-projects{padding:45px 0}.contact{padding:70px 0}.contact h2{font-size:clamp(42px,6vw,70px);letter-spacing:-2.5px}.email-link{font-size:21px;margin-top:0}h2{font-size:36px}
+@media(max-width:700px){.hero{display:flex;min-height:0;padding:40px 0 0;gap:22px}.hero h1{font-size:clamp(37px,9vw,58px);letter-spacing:-2px}.hero-tagline{font-size:clamp(23px,5.8vw,34px)}.portrait-wrap{width:88%;max-width:340px;margin:10px auto 0}.portrait{height:auto}.affiliations{flex-direction:row;justify-content:space-between;gap:12px}.affiliations p{font-size:19px}.section{padding:45px 0}h2{font-size:30px}.job{gap:8px}.education-line{flex-direction:column;gap:5px}.projects{gap:26px}.projects article{padding:3px 0 3px 20px}.projects h3{font-size:23px}.contact{padding:55px 0}.hero-actions{gap:24px}.contact h2{font-size:clamp(36px,8vw,54px)}}
+/* Career detail, line icons and a softer portrait exposure. */
+.portrait{filter:brightness(.84) saturate(.94)}
+.wordmark{display:flex;align-items:center;gap:11px}.wordmark svg{width:25px;height:25px;color:#8faef1;stroke-width:1.6}.languages{align-items:center}.language-icon{width:17px;height:17px;color:#8a9dbc;margin-right:8px}.hero-role,.section-label{display:flex;align-items:center;gap:10px}.hero-role svg,.section-label svg{width:17px;height:17px;stroke-width:1.6;flex-shrink:0}.hero-role{text-transform:uppercase}.role-divider{color:#586c95;margin:0 5px}.hero-actions .button{gap:12px;padding:14px 18px}.button svg{width:18px;height:18px;stroke-width:1.7}.button svg:last-child{margin-left:13px}.social-link{display:inline-flex;align-items:center;gap:9px}.social-link svg{width:17px;height:17px;stroke-width:1.7}.social-link svg:last-child{width:14px}.company-icons{display:flex;gap:36px;align-items:center}.company-icons>span{display:inline-flex;gap:10px;align-items:center;font-size:20px;letter-spacing:-.4px;color:#aebad1;font-weight:500}.company-icons svg{width:22px;height:22px;stroke-width:1.5;color:#8ea7d4}.job{grid-template-columns:.8fr 1.55fr 1.7fr;gap:28px;align-items:start;padding:28px 0}.job-meta{padding-top:3px}.job-city{display:flex;gap:6px;align-items:center;color:#7f94b7;font-size:12px;margin-top:10px}.job-city svg{width:13px;height:13px}.job-identity{display:flex;align-items:flex-start;gap:14px}.company-icon{width:39px;height:39px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:#2e4b7b30;border:1px solid #779bd329;border-radius:9px;color:#9cbbf7}.company-icon svg{width:21px;height:21px;stroke-width:1.6}.job h3{font-size:21px;margin-bottom:5px}.job h3 a{display:inline-flex;align-items:center;gap:8px}.job h3 a svg{width:16px;height:16px;color:#96b7fc}.job-role{line-height:1.6;font-size:13px}.job>p{font-size:15px;line-height:1.75}.education-cards{display:grid;grid-template-columns:1.2fr 1fr;gap:70px}.education-cards article{display:flex;gap:17px}.education-icon{width:25px;height:25px;stroke-width:1.4;color:#9ab9f4;flex-shrink:0;margin-top:5px}.education-date{font-size:12px!important;color:#879bbe!important;margin:0 0 11px!important}.education-cards h3{font-size:21px}.education-cards p{font-size:15px;color:#a6b0c5;margin:14px 0}.education-cards .education-role{font-size:13px;color:#91a7cd;margin-top:0}.academic-award{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:#afc6f3;margin-top:5px}.academic-award svg{width:17px;height:17px;stroke-width:1.5}.contact h2{display:flex;gap:25px;align-items:center}.contact h2 svg{width:.8em;height:.8em;stroke-width:1.2;color:#7197f4;flex-shrink:0}.email-link{align-items:center;gap:14px}.email-link svg{width:21px;height:21px;stroke-width:1.5;color:#9ab7ef}.footer-location,footer a{display:flex;align-items:center;gap:7px}footer svg{width:14px;height:14px;stroke-width:1.5}
+@media(max-width:1000px){.job{grid-template-columns:.8fr 1.4fr 1.5fr;gap:18px}.job-identity{gap:10px}.company-icon{width:33px;height:33px}.company-icon svg{width:18px;height:18px}.job h3{font-size:19px}.education-cards{gap:35px}}
+@media(max-width:700px){.job{grid-template-columns:1fr;gap:14px}.job-meta{display:flex;align-items:center;justify-content:space-between}.job-city{margin:0}.job-identity{gap:13px}.company-icon{width:37px;height:37px}.job h3{font-size:21px}.job>p{margin-left:50px}.company-icons{gap:19px}.company-icons>span{font-size:16px;gap:6px}.company-icons svg{width:18px;height:18px}.affiliations{gap:15px}.education-cards{grid-template-columns:1fr;gap:35px}.education-cards h3{font-size:20px}.hero-actions{gap:20px}.hero-actions .button{gap:8px}.button svg:last-child{margin-left:4px}.hero-role{gap:7px;font-size:10px;letter-spacing:1.4px}.hero-role svg{width:15px;height:15px}.role-divider{margin:0 3px}.section-label{font-size:10px}.social-link{font-size:13px;gap:7px}.social-link svg:last-child{display:none}.contact h2{gap:14px}}
+.hero-tagline{font-size:clamp(25px,2.5vw,34px);line-height:1.38;max-width:560px;letter-spacing:-.9px}
+@media(max-width:700px){.hero-tagline{font-size:clamp(23px,5.3vw,30px);line-height:1.4;letter-spacing:-.6px;max-width:490px}}
+.linkedin-mark{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border:1px solid currentColor;border-radius:2px;font-size:12px;font-weight:700;letter-spacing:-.7px;line-height:1}
+/* Actual organization marks, kept in their original proportions. */
+.company-logo{width:84px;height:48px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:9px;background:#fff;border:1px solid #dce4f4;border-radius:6px}.company-logo img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}.logo-aws{padding:7px 20px}.logo-fortiss,.logo-arctis{padding:10px 7px}.job{grid-template-columns:.75fr 1.7fr 1.65fr}.job-identity{gap:14px}.company-icons>img{display:block;object-fit:contain}.company-icons .strip-snowflake{width:132px;height:36px}.company-icons .strip-tum{width:56px;height:30px}.strip-aws{display:flex;align-items:center;justify-content:center;width:70px;height:40px;border-radius:5px;background:white;padding:7px}.strip-aws img{display:block;width:100%;height:100%;object-fit:contain}.education-logo{display:block;object-fit:contain;flex-shrink:0;width:52px;height:47px;margin-top:4px}.tum-logo{height:30px}.kth-logo{width:50px;height:50px}
+@media(max-width:1000px){.job{grid-template-columns:.7fr 1.6fr 1.4fr}.company-logo{width:66px;height:42px}.logo-aws{padding:6px 15px}.job h3{font-size:18px}}
+@media(max-width:700px){.job{grid-template-columns:1fr}.company-logo{width:76px;height:44px}.job h3{font-size:20px}.job>p{margin-left:90px}.company-icons{gap:22px}.company-icons .strip-snowflake{width:100px;height:29px}.company-icons .strip-tum{width:44px;height:24px}.strip-aws{width:54px;height:34px;padding:6px}.education-logo{width:42px}.kth-logo{height:42px}.tum-logo{height:26px}}
+.affiliations{flex-wrap:wrap}
+/* Transparent marks for dark surfaces: no logo tiles or white backing. */
+.company-logo,.strip-aws{background:transparent;border:0;box-shadow:none;border-radius:0}
+.logo-arctis img,.logo-fortiss img{filter:brightness(0) invert(1)}
+.company-logo{padding:4px 0}.logo-aws-dark{padding:3px 17px}.strip-aws{padding:3px 7px}
+.hero-honour{display:flex;align-items:center;gap:12px;width:fit-content;margin:0 0 28px;padding-left:14px;border-left:2px solid #e7c889;color:#e7c889}.hero-honour>svg{width:27px;height:27px;stroke-width:1.5}.hero-honour strong,.hero-honour small{display:block}.hero-honour strong{font-size:15px;font-weight:600;letter-spacing:.1px}.hero-honour small{font-size:12px;color:#b5bfd2;margin-top:1px}.hero-honour:hover strong{color:#ffe1a5}
+.academic-highlight{display:flex;gap:16px;align-items:flex-start;border:0;padding:0;margin-top:20px}.rank-number{font-family:Manrope,Arial,sans-serif;font-size:36px;font-weight:600;letter-spacing:-1.8px;line-height:1.2;color:#e7c889}.academic-highlight strong{font-size:18px;font-weight:600;color:#f1dba8}.education-cards .academic-highlight p{font-size:13px;margin:4px 0 10px;color:#c3ccdc}.academic-highlight div>span{display:block;font-size:12px;line-height:1.8;color:#97accf}
+@media(max-width:700px){.hero-honour{margin-bottom:24px}.hero-honour strong{font-size:14px}.hero-honour small{font-size:12px}.academic-highlight{gap:17px}.rank-number{font-size:34px}.academic-highlight strong{font-size:16px}.logo-aws-dark{padding:3px 15px}}
+/* Paired organizations share a transparent logo column. */
+.organization-logos{width:84px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:7px}.organization-logos.paired .company-logo{height:28px;padding:2px 0}.organization-logos .companion-logo{height:25px;max-width:70px}.organization-logos .logo-tum{max-width:42px;height:23px}.logo-csee img{filter:none}
+@media(max-width:1000px){.organization-logos{width:66px}.organization-logos .companion-logo{max-width:60px}}
+@media(max-width:700px){.organization-logos{width:76px}.organization-logos .companion-logo{max-width:66px}.organization-logos .logo-tum{max-width:42px}}
+.company-icons .strip-arctis{width:112px;height:30px;object-fit:contain;filter:brightness(0) invert(1)}
+.company-icons{flex-wrap:wrap;justify-content:center}
+@media(max-width:700px){.affiliations>div.company-icons{justify-content:flex-start;column-gap:25px;row-gap:20px}.company-icons .strip-arctis{width:93px;height:26px}}
+
+/* Desktop wordmarks lead each role without a competing duplicate title. */
+.company-logo>a{display:flex;width:100%;height:100%;align-items:center;justify-content:center}
+@media(min-width:701px){
+ .job{grid-template-columns:minmax(130px,.7fr) minmax(230px,1.25fr) minmax(260px,1.6fr);gap:32px;padding:32px 0}
+ .job-identity{flex-direction:column;gap:13px;min-width:0}
+ .job-identity h3{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .job-identity h3:focus-within{position:static;width:auto;height:auto;margin:0;overflow:visible;clip-path:none;white-space:normal}
+ .organization-logos{width:auto;height:38px;flex-direction:row;justify-content:flex-start;align-items:center;gap:22px}
+ .organization-logos .company-logo{width:128px;height:38px;padding:0;justify-content:flex-start}
+ .company-logo>a{justify-content:flex-start}
+ .organization-logos .logo-snowflake-white{width:148px}
+ .organization-logos .logo-aws-dark{width:62px}
+ .organization-logos.paired .company-logo{width:108px;height:34px;padding:0}
+ .organization-logos.paired .companion-logo{width:84px;max-width:none;height:28px}
+ .job-role{max-width:290px}
+}
+@media(min-width:701px) and (max-width:1000px){
+ .job{grid-template-columns:115px minmax(190px,1fr) minmax(210px,1.2fr);gap:20px}
+ .organization-logos{gap:15px}
+ .organization-logos.paired .company-logo{width:95px}
+ .organization-logos.paired .companion-logo{width:72px}
+}
+@media(max-width:700px){
+ .affiliations>div.company-icons{justify-content:center;width:100%;margin-inline:auto;column-gap:25px;row-gap:20px}
+}
+/* Monochrome dark-background marks, preserving their transparent shapes. */
+.logo-aws-dark img,.strip-aws img,.logo-csee img{filter:brightness(0) invert(1)}
+
+/* Consistent calendar and LinkedIn actions. */
+.hero-actions{gap:14px;flex-wrap:wrap}
+.hero-actions .button,.hero-actions .social-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:12px 17px;border:1px solid transparent;border-radius:5px;font-size:14px;font-weight:600;line-height:1.5}
+.hero-actions .social-link{border-color:rgba(160,186,241,.35);transition:background .2s,transform .2s}
+.hero-actions .social-link:hover{background:rgba(160,186,241,.08);transform:translateY(-3px)}
+.hero-actions .button svg,.hero-actions .social-link svg{display:block;width:18px;height:18px;stroke-width:1.7;flex-shrink:0}
+.hero-actions .button svg:last-child,.hero-actions .social-link svg:last-child{width:16px;height:16px;margin-left:4px}
+.contact-booking{display:inline-flex;align-items:center;gap:25px}
+.contact-booking:hover{color:#a9bbdf}
+@media(max-width:700px){.hero-actions{gap:12px}.hero-actions .button,.hero-actions .social-link{padding:12px 14px;font-size:13px;gap:8px}.contact-booking{gap:14px}}
+
+.logo-tng img{filter:brightness(0) invert(1)}
+@media(min-width:701px){.organization-logos .logo-tng{width:210px;max-width:100%}}
+
+/* Every destination has a consistent external link in its top-right corner. */
+.job,.education-cards article{position:relative}
+.job{padding-top:32px;padding-right:42px}
+.entry-links{position:absolute;top:28px;right:0;display:flex;align-items:center;gap:12px}
+.entry-links a{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-width:32px;min-height:32px;color:#9eb5de;border-radius:4px}
+.entry-links a:hover{color:white;background:#8faef115}
+.entry-links svg{width:19px;height:19px;stroke-width:1.6}
+.entry-links span{font-size:12px}
+.education-cards article{padding-top:0;padding-right:38px}
+.education-cards .entry-links{top:0}
+.paired-job{padding-right:80px}
+@media(max-width:700px){
+ .job,.paired-job{padding:27px 0}
+ .job .entry-links{top:23px;gap:4px}
+ .job-meta{min-height:32px;padding-right:42px;gap:8px;flex-wrap:wrap}
+ .paired-job .job-meta{padding-right:78px}
+ .education-cards article{padding-top:0;padding-right:36px}
+}
+@media(min-width:701px) and (max-width:1000px){.job{grid-template-columns:105px minmax(175px,1fr) minmax(0,1.2fr)}.paired-job{padding-right:76px}}
+
+/* Quiet pill actions with a single shared directional detail. */
+.hero-actions{gap:12px}
+.hero-actions .button,.hero-actions .social-link{min-height:48px;padding:6px 7px 6px 21px;gap:20px;border-radius:999px;font-size:14px;font-weight:500;letter-spacing:.05px;line-height:1.4;transition:background .2s,border-color .2s,box-shadow .2s,transform .2s}
+.hero-actions .button{background:#dce7fc;color:#142744;border:1px solid #e8efff;box-shadow:inset 0 1px 0 #ffffff80,0 4px 18px #030a181a}
+.hero-actions .social-link{background:#97b8f00a;border:1px solid #a9c5f330;color:#dce7fc}
+.hero-actions .action-label{font-size:14px;line-height:1.4}
+.hero-actions .action-arrow{display:flex;align-items:center;justify-content:center;width:33px;height:33px;border-radius:50%;background:#132b4910;flex-shrink:0}
+.hero-actions .social-link .action-arrow{background:#abc8fc12}
+.hero-actions .button .action-arrow svg,.hero-actions .social-link .action-arrow svg{display:block;width:16px;height:16px;margin:0;stroke-width:1.6;transition:transform .2s}
+.hero-actions .button:hover{background:#edf3ff;transform:translateY(-2px);box-shadow:0 6px 22px #02081730}
+.hero-actions .social-link:hover{background:#abc8fc14;border-color:#a9c5f369;transform:translateY(-2px)}
+.hero-actions a:hover .action-arrow svg{transform:translate(1px,-1px)}
+@media(max-width:380px){.hero-actions{gap:10px}.hero-actions .button,.hero-actions .social-link{gap:12px;padding-left:16px}}
+
+/* Named destination links on desktop; logos carry the names on mobile. */
+@media(min-width:701px){
+ .job,.paired-job{padding-right:0}
+ .job>p{padding-top:34px}
+ .entry-links{gap:14px}
+ .entry-links span{font-size:13px}
+ .education-cards article{padding-right:76px}
+}
+@media(max-width:700px){
+ .entry-links span{display:none}
+ .job-identity{align-items:center}
+ .job-identity h3{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+}
+/* Mobile career entries: full-width reading and a balanced brand row. */
+@media(max-width:700px){
+ .job,.paired-job{display:flex;flex-direction:column;gap:18px;padding:28px 0 30px}
+ .job-meta{width:100%;justify-content:flex-start;align-items:center;gap:8px 16px;padding-top:0;padding-right:42px;min-height:32px}
+ .paired-job .job-meta{padding-right:78px}
+ .job .date{font-size:12px;letter-spacing:.3px;padding-top:0}
+ .job-city{font-size:12px}
+ .job-identity{width:100%;flex-direction:column;align-items:flex-start;gap:12px}
+ .organization-logos{width:auto;height:40px;flex-direction:row;align-items:center;justify-content:flex-start;gap:22px}
+ .organization-logos .company-logo{width:112px;height:38px;justify-content:flex-start;padding:0}
+ .organization-logos .company-logo>a{justify-content:flex-start}
+ .organization-logos.paired .company-logo{width:108px;height:36px;padding:0}
+ .organization-logos.paired .companion-logo{width:86px;max-width:none;height:29px}
+ .organization-logos .logo-snowflake-white{width:140px}
+ .organization-logos .logo-aws-dark{width:58px}
+ .organization-logos .logo-tng{width:205px}
+ .job-role{font-size:14px;line-height:1.55;color:#b3c2dc;max-width:none}
+ .job>p{margin:0;padding:0;width:100%;font-size:16px;line-height:1.7}
+ .job .entry-links{top:27px;gap:4px}
+ .job .entry-links a{min-width:32px;min-height:32px}
+}
+/* Clear mobile headings without separate website-link controls. */
+@media(max-width:700px){
+ .job .entry-links,.education-cards .entry-links{display:none}
+ .job .job-meta,.paired-job .job-meta{padding-right:0;justify-content:space-between;min-height:0}
+ .education-cards article{padding-right:0}
+ .job-identity h3{position:static;width:auto;height:auto;padding:0;margin:0 0 6px;overflow:visible;clip-path:none;white-space:normal;font-size:20px;line-height:1.3;letter-spacing:-.4px}
+ .job-identity{gap:15px}
+}
+
+/* Once-only scroll reveals; content remains visible without JavaScript. */
+@media(prefers-reduced-motion:no-preference){
+ .job[data-reveal],.education-cards article[data-reveal]{transition:opacity .65s ease,transform .65s cubic-bezier(.22,1,.36,1)}
+ [data-reveal="pending"]{opacity:0;transform:translateY(26px)}
+ [data-reveal="visible"]{opacity:1;transform:translateY(0)}
+}
+@media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none}}
+
+/* Inline scheduling, sized by Cal.com as visitors choose a time. */
+.booking-section h2{font-size:clamp(28px,3.2vw,42px);letter-spacing:-1.3px;margin-bottom:28px}
+.calendar-embed{width:100%;min-height:620px;border-radius:12px;overflow:hidden;color-scheme:dark}
+.booking-alternatives{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-top:16px}
+.booking-alternatives a{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:#a6b9d9}
+.booking-alternatives a:hover{color:white}
+.booking-alternatives svg{width:15px;height:15px;stroke-width:1.6}
+@media(max-width:700px){.booking-section h2{font-size:28px}.calendar-embed{border-radius:8px}.booking-alternatives{gap:14px}}
